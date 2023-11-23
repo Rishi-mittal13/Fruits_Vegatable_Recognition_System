@@ -27,7 +27,7 @@ if(app_mode=="Home"):
 elif(app_mode=="About Project"):
     st.header("About Project")
     st.subheader("About Dataset")
-    st.text("This dataset contains images of the following food items:")
+    st.text("This is dataset contains images of the following food items:")
     st.code("fruits- banana, apple, pear, grapes, orange, kiwi, watermelon, pomegranate, pineapple, mango.")
     st.code("vegetables- cucumber, carrot, capsicum, onion, potato, lemon, tomato, raddish, beetroot, cabbage, lettuce, spinach, soy bean, cauliflower, bell pepper, chilli pepper, turnip, corn, sweetcorn, sweet potato, paprika, jalepeño, ginger, garlic, peas, eggplant.")
     st.subheader("Content")
